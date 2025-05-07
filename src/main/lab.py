@@ -5,7 +5,7 @@ def int_to_float(value):
     :param value: The integer value to convert.
     :return: The float value.
     """
-    return 0
+    return float(value)
 
 def float_to_int(value):
     """
@@ -14,7 +14,7 @@ def float_to_int(value):
     :param value: The float value to convert.
     :return: The integer value.
     """
-    return 0
+    return int(value)
 
 def str_to_int(value):
     """
@@ -24,7 +24,7 @@ def str_to_int(value):
     :return: The integer value.
     """
     try:
-        return 0
+        return int(value)
     except ValueError:
         print("Invalid input: unable to convert to integer")
         return None
@@ -37,7 +37,7 @@ def str_to_float(value):
     :return: The float value.
     """
     try:
-        return 0
+        return float(value)
     except ValueError:
         print("Invalid input: unable to convert to integer")
         return None
@@ -49,7 +49,7 @@ def int_to_str(value):
     :param value: The integer value to convert.
     :return: The string value.
     """
-    return None
+    return str(value)
 
 def float_to_str(value):
     """
@@ -58,6 +58,6 @@ def float_to_str(value):
     :param value: The float value to convert.
     :return: The string value.
     """
-    return None
+    return str(value)
 
 
